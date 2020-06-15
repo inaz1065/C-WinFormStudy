@@ -19,6 +19,8 @@ namespace C샵_실습_001_제네릭
 
             genericsInt.Print();
             genericsDouble.Print();
+
+
         }
     }
 
