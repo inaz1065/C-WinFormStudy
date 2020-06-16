@@ -43,8 +43,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.LinkLabel_Naver = new System.Windows.Forms.LinkLabel();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.TextBox_LogInResult = new System.Windows.Forms.TextBox();
+            this.Button_LogIn = new System.Windows.Forms.Button();
+            this.TextBox_ID = new System.Windows.Forms.TextBox();
+            this.TextBox_PW = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // CheckBox_Apple
@@ -205,27 +207,48 @@
             this.LinkLabel_Naver.Text = "https://naver.com";
             this.LinkLabel_Naver.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel_Naver_LinkClicked);
             // 
-            // maskedTextBox1
+            // TextBox_LogInResult
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(500, 96);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(150, 25);
-            this.maskedTextBox1.TabIndex = 17;
+            this.TextBox_LogInResult.Location = new System.Drawing.Point(400, 210);
+            this.TextBox_LogInResult.Multiline = true;
+            this.TextBox_LogInResult.Name = "TextBox_LogInResult";
+            this.TextBox_LogInResult.ReadOnly = true;
+            this.TextBox_LogInResult.Size = new System.Drawing.Size(250, 100);
+            this.TextBox_LogInResult.TabIndex = 19;
             // 
-            // maskedTextBox2
+            // Button_LogIn
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(500, 146);
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(150, 25);
-            this.maskedTextBox2.TabIndex = 18;
+            this.Button_LogIn.Location = new System.Drawing.Point(475, 350);
+            this.Button_LogIn.Name = "Button_LogIn";
+            this.Button_LogIn.Size = new System.Drawing.Size(100, 30);
+            this.Button_LogIn.TabIndex = 20;
+            this.Button_LogIn.Text = "로그인";
+            this.Button_LogIn.UseVisualStyleBackColor = true;
+            this.Button_LogIn.Click += new System.EventHandler(this.Button_LogIn_Click);
+            // 
+            // TextBox_ID
+            // 
+            this.TextBox_ID.Location = new System.Drawing.Point(500, 93);
+            this.TextBox_ID.Name = "TextBox_ID";
+            this.TextBox_ID.Size = new System.Drawing.Size(150, 25);
+            this.TextBox_ID.TabIndex = 21;
+            // 
+            // TextBox_PW
+            // 
+            this.TextBox_PW.Location = new System.Drawing.Point(500, 146);
+            this.TextBox_PW.Name = "TextBox_PW";
+            this.TextBox_PW.Size = new System.Drawing.Size(150, 25);
+            this.TextBox_PW.TabIndex = 22;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(782, 453);
-            this.Controls.Add(this.maskedTextBox2);
-            this.Controls.Add(this.maskedTextBox1);
+            this.ClientSize = new System.Drawing.Size(732, 453);
+            this.Controls.Add(this.TextBox_PW);
+            this.Controls.Add(this.TextBox_ID);
+            this.Controls.Add(this.Button_LogIn);
+            this.Controls.Add(this.TextBox_LogInResult);
             this.Controls.Add(this.LinkLabel_Naver);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -265,8 +288,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.LinkLabel LinkLabel_Naver;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.TextBox TextBox_LogInResult;
+        private System.Windows.Forms.Button Button_LogIn;
+        private System.Windows.Forms.TextBox TextBox_ID;
+        private System.Windows.Forms.TextBox TextBox_PW;
     }
 }
 

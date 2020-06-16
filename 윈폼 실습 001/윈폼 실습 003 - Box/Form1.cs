@@ -93,5 +93,19 @@ namespace 윈폼_실습_003___Box
         {
             Process.Start(LinkLabel_Naver.Text);
         }
+
+        private void Button_LogIn_Click(object sender, EventArgs e)
+        {
+            if(TextBox_ID.Text != "" && TextBox_PW.Text != "")
+            {
+                TextBox_LogInResult.Text = $"ID : {TextBox_ID.Text}\r\nPW : {TextBox_PW}\r\n"
+                                          + "로그인에 성공했습니다";
+            }
+            else
+            {
+                TextBox_LogInResult.Text = "로그인에 실패했습니다\r\n"
+                                         + "ID와 PW를 모두 입력해주세요";
+            }
+        }
     }
 }
