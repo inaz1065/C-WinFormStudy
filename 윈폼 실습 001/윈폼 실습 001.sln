@@ -15,6 +15,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "윈폼 실습 005 - Dialog"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "윈폼 실습 006 - Menu", "윈폼 실습 006 - Menu\윈폼 실습 006 - Menu.csproj", "{C77B58F2-8FD9-437A-962E-596AF11C662C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "윈폼 실습 007 - 마우스, 키보드", "윈폼 실습 007 - 마우스, 키보드\윈폼 실습 007 - 마우스, 키보드.csproj", "{B097ABBF-0CA9-45B3-BB59-DE179679402D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "윈폼 실습 008 - 리스트뷰, 트리뷰", "윈폼 실습 008 - 리스트뷰, 트리뷰\윈폼 실습 008 - 리스트뷰, 트리뷰.csproj", "{98DF2695-B455-4BCB-BC81-2B28FD899151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "윈폼 실습 009 - 그래픽", "윈폼 실습 009 - 그래픽\윈폼 실습 009 - 그래픽.csproj", "{64A6052E-DAA0-4BFB-A315-8F3BE0AB4FDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "윈폼 실습 010 - 차트", "윈폼 실습 010 - 차트\윈폼 실습 010 - 차트.csproj", "{E74EB1EB-6317-46CB-84AF-34FA4AF54C47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "윈폼 실습 011 - DB연동", "윈폼 실습 011 - DB연동\윈폼 실습 011 - DB연동.csproj", "{60149187-9615-4CD4-9365-48CFB4EB7D4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +55,26 @@ Global
 		{C77B58F2-8FD9-437A-962E-596AF11C662C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C77B58F2-8FD9-437A-962E-596AF11C662C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C77B58F2-8FD9-437A-962E-596AF11C662C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B097ABBF-0CA9-45B3-BB59-DE179679402D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B097ABBF-0CA9-45B3-BB59-DE179679402D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B097ABBF-0CA9-45B3-BB59-DE179679402D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B097ABBF-0CA9-45B3-BB59-DE179679402D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98DF2695-B455-4BCB-BC81-2B28FD899151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98DF2695-B455-4BCB-BC81-2B28FD899151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98DF2695-B455-4BCB-BC81-2B28FD899151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98DF2695-B455-4BCB-BC81-2B28FD899151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A6052E-DAA0-4BFB-A315-8F3BE0AB4FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A6052E-DAA0-4BFB-A315-8F3BE0AB4FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A6052E-DAA0-4BFB-A315-8F3BE0AB4FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A6052E-DAA0-4BFB-A315-8F3BE0AB4FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E74EB1EB-6317-46CB-84AF-34FA4AF54C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74EB1EB-6317-46CB-84AF-34FA4AF54C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E74EB1EB-6317-46CB-84AF-34FA4AF54C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E74EB1EB-6317-46CB-84AF-34FA4AF54C47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60149187-9615-4CD4-9365-48CFB4EB7D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60149187-9615-4CD4-9365-48CFB4EB7D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60149187-9615-4CD4-9365-48CFB4EB7D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60149187-9615-4CD4-9365-48CFB4EB7D4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

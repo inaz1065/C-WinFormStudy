@@ -129,6 +129,7 @@
             this.CheckedListBox_Hobby.Name = "CheckedListBox_Hobby";
             this.CheckedListBox_Hobby.Size = new System.Drawing.Size(317, 244);
             this.CheckedListBox_Hobby.TabIndex = 7;
+            this.CheckedListBox_Hobby.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.CheckedListBox_Hobby_ItemCheck);
             this.CheckedListBox_Hobby.SelectedIndexChanged += new System.EventHandler(this.CheckedListBox_Hobby_SelectedIndexChanged);
             // 
             // Button_Hobby

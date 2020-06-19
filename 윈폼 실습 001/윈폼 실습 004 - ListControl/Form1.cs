@@ -75,5 +75,13 @@ namespace 윈폼_실습_004___ListControl
             MessageBox.Show($"당신의 취미는 {strTemp}입니다");
         }
 
+        private void CheckedListBox_Hobby_ItemCheck(object sender, ItemCheckEventArgs e)
+        {
+            if(e.NewValue == CheckState.Checked && CheckedListBox_Hobby.CheckedItems.Count >= 3)
+            {
+                e.NewValue = CheckState.Unchecked;
+                MessageBox.Show("최대 3개까지만 선택 가능합니다");
+            }
+        }
     }
 }
